@@ -1,12 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from rango.models import Category
 from rango.models import Page
 from rango.forms import CategoryForm
 from django.shortcuts import redirect
 from rango.forms import PageForm
 from django.urls import reverse
-from django.template.defaultfilters import slugify
 
 
 def index(request):
